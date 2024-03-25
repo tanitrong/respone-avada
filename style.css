@@ -1,0 +1,1122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-bold: rgb(102, 102, 9);
+}
+
+
+html,s
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* trong */
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+/* .container-fluid {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+} */
+.fixwidth {
+    max-width: 1284px;
+    margin: auto;
+}
+
+
+.header_top {
+    background-image: url(https://avada.website/dispensary/wp-content/uploads/sites/183/2023/09/bg.svg);
+    background-color: #1E2926;
+    background-repeat: no-repeat;
+    background-position-y: 120px;
+
+}
+
+
+
+.menu {
+    background-color: #1E2926;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    align-items: center;
+}
+
+.menu_right ul {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.menu_right li {
+    padding: 12px 16px;
+    list-style-type: none;
+    margin-right: 7px;
+}
+
+.menu_left {
+    padding-left: 32px;
+}
+
+.menu_right {
+    padding-right: 15px;
+}
+
+.menu_right i {
+    padding: 12px 16px;
+    color: #fff;
+    margin: auto;
+    font-size: 20px;
+}
+
+.menu_right a {
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    color: #ffff;
+}
+
+
+
+.header_main {
+    width: 98.93%;
+}
+
+.content_header {
+    text-align: center;
+    color: #fff;
+}
+
+.content_header .title {
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+    font-size: 68px;
+    text-transform: uppercase;
+    line-height: 81.6px;
+    padding: 96px 109px 15px 109px;
+}
+
+.content_header .des {
+    letter-spacing: 0.24px;
+    line-height: 27.52px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 109px 50px 109px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+}
+
+.content_header .button {
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: solid 1px;
+    padding: 18px 31px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.img_header img {
+    height: 732px;
+    width: 104.6%;
+    object-fit: cover;
+    margin-left: 0px;
+}
+
+.box_use {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    height: 681px;
+    position: relative;
+
+}
+
+.box_use1 {
+    width: 33.333%;
+    height: 100%;
+    background-color: #6A6E49;
+}
+
+.box_use2 {
+    width: 33.333%;
+    background-color: #975F44;
+    height: 100%;
+
+}
+
+.box_use3 {
+    background-color: #FFFBF4;
+    width: 33.333%;
+    height: 100%;
+}
+.contents_use3 div {
+    color: black;
+}
+.box_use3 .button_use {
+    background-color: #6A6E49;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    color: #ffff;
+    border-radius: 30px;
+    padding: 18px 31px;
+    display: inline-block;
+}
+
+
+.img_use img {
+    width: 230px;
+    height: 298px;
+    -webkit-mask-image: url(https://avada.website/dispensary/wp-content/plugins/fusion-builder//assets/images/masks/mask-3.svg);
+    mask-image: url(https://avada.website/dispensary/wp-content/plugins/fusion-builder//assets/images/masks/mask-3.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+
+.title_use {
+    padding: 90px 0 10px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #Fff;
+}
+
+.img_use {
+    padding: 10px 0;
+}
+
+.des_use {
+    padding: 0 84px 30px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    line-height: 27px;
+    letter-spacing: 0.24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.button_use {
+    border: solid 2px white;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    color: #Fff;
+    border-radius: 30px;
+    padding: 18px 31px;
+    display: inline-block;
+}
+
+
+.items_iconall {
+    display: flex;
+}
+.icon_items {
+    text-align: center;
+    padding: 200px 20px 100px;
+    opacity: 0.8;
+}
+
+.icon_item1 {
+    width: 100%;
+    color: #fff;
+}
+
+.icon_item1 i {
+    padding-bottom: 30px;
+    font-size: 55px;
+}
+
+.title_icon {
+    font-weight: 500;
+    padding: 0 25px;
+    line-height: 27.5px;
+    letter-spacing: 0.24px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+
+}
+
+
+.images_item1 {
+    padding-left: 30px;
+    padding-bottom: 150px;
+}
+
+.images_item2 {
+    padding-left: 15px;
+    padding-bottom: 150px;
+}
+
+.images1 img {
+    width: 374px;
+    height: 228px;
+    position: relative;
+    opacity: 0.6;
+}
+
+.title_images {
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+}
+
+.beauty_box {
+    padding-top: 178px;
+    padding-bottom: 124px;
+    background-color: #fff;
+}
+
+.images_beauty {
+    display: flex;
+    padding-right: 50px;
+}
+
+.beauty1 img {
+    width: 300px;
+    height: 400px;
+}
+
+.beauty2 img {
+    width: 300px;
+    height: 400px;
+}
+
+.title_beauty {
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    padding-bottom: 28px;
+}
+
+.des_beauty {
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    letter-spacing: 0.25px;
+    padding-bottom: 50px;
+}
+
+.button_beauty {
+    padding: 16px 29px;
+    border-radius: 30px;
+    background-color: #975F44;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+.content_beauty {
+    padding-left: 20px;
+    padding-right: 94px;
+}
+
+
+.smoke_double {
+    text-align: center;
+    display: flex;
+}
+
+.items_smk1 {
+    width: 50%;
+    position: relative;
+
+}
+
+.items_smk2 {
+    width: 50%;
+    position: relative;
+
+}
+
+.items_smk1 img {
+    width: 100%;
+    height: 543px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.items_smk2 img {
+    width: 100%;
+    height: 543px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.content_smoke1 {
+    position: absolute;
+    top: 10%;
+    color: #Fff;
+    padding: 80px 65px;
+}
+
+.content_smoke2 {
+    position: absolute;
+    top: 10%;
+    padding: 120px 65px;
+    color: #Fff;
+}
+
+.content_smoke2 .title_smk {
+    font-size: 43px;
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+}
+
+.content_smoke1 .title_smk {
+    font-size: 43px;
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+}
+
+.content_smoke2 .des_smk {
+    padding: 20px 65px 50px;
+    font-size: 16px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+
+}
+
+.content_smoke1 .des_smk {
+    padding: 20px 65px 50px;
+    font-size: 16px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+
+}
+
+.content_smoke2 .btn_smk {
+    padding: 14px 26px;
+    background-color: #975F44;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+
+}
+
+.content_smoke1 .btn_smk {
+    padding: 14px 26px;
+    background-color: #975F44;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.explore_container {
+    background-color: #FFFBF4;
+}
+
+.content_epl {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+.tt_eplbig {
+    font-size: 43px;
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+}
+
+.des_eplhd {
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.items_epl {
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    display: grid;
+    padding: 40px 40px;
+    padding-bottom: 160px;
+}
+
+.epl1 {
+    border: 1px solid gray;
+    height: 664px;
+    background-color: #Fff;
+}
+
+.epl2 {
+    border: 1px solid gray;
+    background-color: #Fff;
+}
+
+.epl3 {
+    border: 1px solid gray;
+    background-color: #Fff;
+}
+
+.count_epl {
+    display: flex;
+    justify-content: center;
+}
+
+
+.img_epl img {
+    width: 180px;
+    height: 200px;
+    -webkit-mask-image: url(https://avada.website/dispensary/wp-content/uploads/sites/183/2023/09/mask-2.svg);
+    mask-image: url(https://avada.website/dispensary/wp-content/uploads/sites/183/2023/09/mask-2.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+.tt_epl {
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #6a6e49;
+    padding: 80px 80px 20px;
+}
+.des_epl {
+    font-size: 14px;
+    letter-spacing: 0.24px;
+    line-height: 24px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    color: #6a6e49;
+    padding: 30px 60px;
+}
+.count1_epl {
+    padding: 7px 15px;
+    border-radius: 6px;
+    border: 1px solid rgb(209, 152, 92);
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    letter-spacing: 0.24px;
+    line-height: 24px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+}
+.count_epl {
+    padding-bottom: 30px;
+}
+.btn_epl {
+    padding: 16px 31px;
+    border: 2px solid #6a6e49;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    letter-spacing: 0.24px;
+    line-height: 24px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+}
+.icon_epl {
+    color: #6a6e49;
+    font-size: 16px;
+}
+.icon_epl i {
+    margin: -2.5px;
+}
+
+
+.images_pro img{
+    width: 100%;
+    padding-left: 15px
+}
+
+.pormotes_relax {
+    padding-top: 180px;
+}
+.content_pro {
+    padding: 50px 80px;
+    color: #fff;
+}
+.tt_pro {
+    line-height: 58px;
+    padding-bottom: 20px;
+    letter-spacing: 0.25px;
+    font-size: 50px;
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+
+}
+.des_pro {
+    font-size: 16px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+
+.images_feel img{
+    width: 100%;
+    padding-right: 15px
+}
+
+.feel_more {
+    color: #fff;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.content_feel {
+    padding: 51px 124px 52px 20px;
+}
+.tt_feel {
+    line-height: 58px;
+    padding-bottom: 20px;
+    letter-spacing: 0.25px;
+    font-size: 50px;
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+
+}
+.des_feel {    
+    letter-spacing: 0.25px;
+    font-size: 16px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.btn_feel {
+    font-size: 16px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.btn_pro {
+    font-size: 16px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.promotes_ft {
+    background-color: #1E2926;
+}
+
+
+/* .images_utm img {
+    
+
+    width: 100%;
+    height: 438px;
+    object-fit: cover;
+    filter: brightness(50%);
+} */
+.content_utm{
+    
+    padding-top: 55px;
+    display: flex;
+    width: 100%;
+    color: #ffffff;
+}
+.box_content {
+    width: 70%;
+    padding: 50px 185px 30px 30px;
+}
+.btn_utm {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    padding: 14px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    display: inline-block;
+    font-weight: 500;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+}
+/* .footer_bg  img{
+    position: relative;
+    width: 100%;
+    height: 438px;
+    object-fit: cover;
+} */
+.footer_bg {
+    background:round;
+    height: 438px;
+    object-fit: cover;
+    background-image: url(https://avada.website/dispensary/wp-content/uploads/sites/183/2023/09/bg-5.jpg);
+}
+
+.img_utm img {
+    width: 100%;
+    position: relative;
+}
+.tt_utm {
+    color: #ffffff;
+    font-size: 43px;
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+}
+.des_utm {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+/* .btn_utm {
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    color: black;
+    padding: 14px 130px;
+    border-radius: 50px;
+    background-color: #fff;
+    display: inline-block;
+    font-weight: 500;
+} */
+
+
+.footer_end {
+    width: 100%;
+    background-color: #1E2926;
+}
+.ft_all {
+    display: flex;
+}
+
+.menu_ft {
+    width: 100%;
+    column-count: 2;
+    column-gap: 10px;
+}
+.footer_left {
+    padding-left: 25px;
+    width: 50%;
+    color: #fff;
+    padding-top: 90px;
+}
+.footer_right {
+    padding-top: 90px;
+    color: #fff;
+    width: 50%;
+    padding-right: 50px;
+}
+.logo_ft {
+    margin-bottom: 30px;
+}
+.tt_ftr {
+    font-size: 20px;
+    font-family: "Aboreto", Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.input_ftr {
+    opacity: 0.5;
+
+    font-size: 18px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    border: solid 1px rgb(241, 235, 224);
+    padding: 20px 10px;
+}
+.btn_ftr {
+    top: 10%;
+    left: 65%;
+    position: absolute;
+    font-size: 18px;
+    font-family: "Golos Text", Arial, Helvetica, sans-serif;
+    padding: 14px 40px;
+    background-color: #6a6e49;
+    display: inline-block;
+}
+.all_btn {
+    position: relative;
+    
+}
+.public_ft {
+    padding-top: 30px;
+    padding-bottom: 140px;
+}
+.menu_ft  li {
+    padding-bottom: 16px;
+    list-style-type: none;
+}
+.icon_ft i {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.menu_ft a {
+    font-weight: 500;
+    color: floralwhite;
+}
+
+.nav-button {
+    color: #Fff;
+    display: none;
+}
+/* mobile*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .menu_right {
+        display: none;
+    }
+    .menu_left img{
+        width: 70%;
+    }
+    .nav-button {
+        display: block;
+        font-size: 25px;
+        padding-right: 50px;
+    }
+    .header_main {
+        flex-direction: column-reverse;
+    }
+    .content_header .title {
+        font-size: 42px;
+        line-height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .content_header .des {
+        padding: 0px 26px 50px 26px;
+
+    }
+    .img_header img {
+        width: 110%;
+        margin-left: -15px;
+        padding: 65px 0;
+        height: 500px;
+    }
+    .box_use {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .des_use {
+        padding: 0px 46px 40px;
+    }
+    .box_use1 {
+        width: 100%;
+        height: 750px;
+        margin-bottom: 30px;
+    }
+    .box_use2 {
+        width: 100%;
+        top: 50px;
+        left: 0;
+        height: 750px;
+        margin-bottom: 30px;
+    }
+    .box_use3 {
+        width: 100%;
+        top: 100px;
+        left: 0;
+        height: 750px;
+    }
+    
+    .images_item1 {
+        padding-left: 15px;
+        padding-bottom: 50px;
+    }
+    .images1 img {
+        width: 310px;
+        height: 260px;
+    }
+    .images_item2 {
+        padding-bottom: 50px;
+    }
+
+    .images_item3 {
+        padding-left: 15px;
+        padding-bottom: 100px;
+    }
+    .title_images {
+        top: 36%;
+    }
+    .beauty_box {
+        padding-top: 80px;
+    }
+    .content_beauty {
+        padding: 0px 0px 40px 58px;
+    }
+    .title_beauty {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .images_beauty {
+        padding: 0;
+    }
+    .beauty1 img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .beauty2 img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .smoke_double {
+        flex-direction: column;
+    }
+    .items_smk1 {
+        width: 100%;
+    }
+    .items_smk2 {
+        width: 100%;
+    } 
+    
+    .content_smoke1 {
+        top:6%;
+        padding: 80px 41px;
+    }
+    .content_smoke2 {
+        top:0;
+        padding: 80px 41px;
+    }
+    .content_smoke1 .title_smk {
+        font-size: 34px;
+    }
+    .content_smoke2 .title_smk {
+        font-size: 34px;
+    }
+    .items_epl {
+        padding: 0 30px 100px;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .epl2 {
+        height: 664px;
+    }
+    .epl3 {
+        height: 664px;
+    }
+    .content_epl  {
+        padding-top: 110px00;
+    }
+
+
+    /*promatess*/
+
+    .pormotes_relax {
+        padding-top: 100px;
+    }
+    .images_pro img {
+        padding-left: 0;
+    }
+    .images_feel img {
+        padding-right: 0;
+    }
+    .content_feel {
+        padding: 50px 46px 52px 20px;
+    }
+    .tt_feel {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .feel_more {
+        padding-top: 50px;
+    }
+    .content_pro {
+        padding: 50px 20px;
+        color: #fff;
+    }
+    .tt_pro {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .box_content {
+        padding: 0;
+        width: 100%;
+    }
+    .content_utm {
+        padding: 80px 60px 0px 30px;
+        flex-direction: column;
+    }
+    .tt_utm {
+        line-height: 35px;
+        font-size: 34px; 
+    }
+    .btn_utm {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .footer_bg {
+        height: 500px;
+    }
+    .ft_all {
+        flex-direction: column;
+    }
+    .footer_left {
+        font-size: 18px;
+        padding-left: 39px;
+        width: 100%;
+    }
+    .footer_right {
+        width: 100%;
+        padding-top: 90px;
+        color: #fff;
+        padding-left: 40px;
+    }
+    .all_btn {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .input_ftr {
+        margin-top: -30px;
+        top: 10%;
+        opacity: 0.5;
+        font-size: 18px;
+        font-family: "Golos Text", Arial, Helvetica, sans-serif;
+        border: solid 1px rgb(241, 235, 224);
+        padding: 10px 11px 84px;
+    }
+    .btn_ftr {
+        bottom: 10%;
+        left: 4%;
+        position: absolute;
+        font-size: 18px;
+        font-family: "Golos Text", Arial, Helvetica, sans-serif;
+        padding: 20px 70px;
+        background-color: #6a6e49;
+        display: inline-block;
+    }
+    .tt_ftr {
+        margin-bottom: 40px;
+    }
+    .items_iconall {
+        flex-wrap: wrap;
+    }
+    .icon_item1 {
+        padding-bottom: 50px;
+    }
+    .title_icon {
+    padding: 0px;
+    font-size: 15px;
+    }
+    .icon_items {
+        padding-top: 100px;
+    }
+    
+  }
